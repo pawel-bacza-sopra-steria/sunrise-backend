@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "id": "vehicleparts",
+      "externalId": "vehicleparts",
+      "name": "Vehicle parts",
+      "slug": "vehicleparts",
+      "__typename": "Category",
+      "children": [
+        {
+          "id": "carparts",
+          "externalId": "carparts",
+          "name": "Car parts",
+          "slug": "carparts",
+          "__typename": "Category",
+          "children": [
+            {
+              "id": "funs",
+              "externalId": "funs",
+              "name": "Funs",
+              "slug": "funs",
+              "__typename": "Category"
+            },
+            {
+              "id": "other",
+              "externalId": "other",
+              "name": "Other",
+              "slug": "other",
+              "__typename": "Category"
+            }
+          ]
+        }
+      ],
+      "ancestors": []
+    }
+  ],
+  "__typename": "CategoryQueryResult"
+}

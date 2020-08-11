@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "id": "Screw",
+      "masterData": {
+        "current": {
+          "name": "Screw",
+          "slug": "Screw",
+          "masterVariant": {
+            "sku": "screw",
+            "images": [
+              {
+                "url": "https://cdn.aws.toolstation.com/images/141020-UK/800/97494.jpg",
+                "__typename": "Image"
+              },
+              {
+                "url": "https://cdn.aws.toolstation.com/images/141020-UK/800/97494.jpg",
+                "__typename": "Image"
+              }
+            ],
+            "price": {
+              "discounted": {
+                "value": {
+                  "centAmount": 101,
+                  "fractionDigits": 2,
+                  "__typename": "Money"
+                },
+                "__typename": "DiscountedProductPriceValue"
+              },
+              "value": {
+                "centAmount": 5,
+                "fractionDigits": 0,
+                "__typename": "HighPrecisionMoney"
+              },
+              "__typename": "ProductPrice"
+            },
+            "__typename": "ProductVariant"
+          },
+          "__typename": "ProductData"
+        },
+        "__typename": "ProductCatalogData"
+      },
+      "__typename": "Product"
+    },
+    {
+      "id": "Cat",
+      "masterData": {
+        "current": {
+          "name": "Cat",
+          "slug": "Cat",
+          "masterVariant": {
+            "sku": "cat",
+            "images": [
+              {
+                "url": "https://static01.nyt.com/images/2020/04/22/science/22VIRUS-PETCATS1/22VIRUS-PETCATS1-mediumSquareAt3X.jpg",
+                "__typename": "Image"
+              },
+              {
+                "url": "https://static01.nyt.com/images/2020/04/22/science/22VIRUS-PETCATS1/22VIRUS-PETCATS1-mediumSquareAt3X.jpg",
+                "__typename": "Image"
+              }
+            ],
+            "price": {
+              "discounted": {
+                "value": {
+                  "centAmount": 6,
+                  "fractionDigits": 0,
+                  "__typename": "Money"
+                },
+                "__typename": "DiscountedProductPriceValue"
+              },
+              "value": {
+                "centAmount": 6000,
+                "fractionDigits": 0,
+                "__typename": "HighPrecisionMoney"
+              },
+              "__typename": "ProductPrice"
+            },
+            "__typename": "ProductVariant"
+          },
+          "__typename": "ProductData"
+        },
+        "__typename": "ProductCatalogData"
+      },
+      "__typename": "Product"
+    }
+  ]
+}

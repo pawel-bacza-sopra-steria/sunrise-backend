@@ -1,0 +1,72 @@
+{
+  "id": "Crankshaft",
+  "masterData": {
+    "current": {
+      "name": "Crankshaft",
+      "slug": "crankshaft",
+      "masterVariant": {
+        "sku": "crankshaft",
+        "images": [
+          {
+            "url": "https://www.renderhub.com/3d-horse/crankshaft2/crankshaft2.jpg",
+            "__typename": "Image"
+          },
+          {
+            "url": "https://www.renderhub.com/3d-horse/crankshaft2/crankshaft2-02.jpg",
+            "__typename": "Image"
+          }
+        ],
+        "price": {
+          "discounted": {
+            "value": {
+              "centAmount": 60,
+              "fractionDigits": 0,
+              "__typename": "Money"
+            },
+            "__typename": "DiscountedProductPriceValue"
+          },
+          "value": {
+            "centAmount": 600,
+            "fractionDigits": 0,
+            "__typename": "HighPrecisionMoney"
+          },
+          "__typename": "ProductPrice"
+        },
+        "__typename": "ProductVariant"
+      },
+      "variant": {
+        "sku": "crankshaft",
+        "images": [
+          {
+            "url": "https://www.renderhub.com/3d-horse/crankshaft2/crankshaft2.jpg",
+            "__typename": "Image"
+          },
+          {
+            "url": "https://www.renderhub.com/3d-horse/crankshaft2/crankshaft2-02.jpg",
+            "__typename": "Image"
+          }
+        ],
+        "price": {
+          "discounted": {
+            "value": {
+              "centAmount": 60,
+              "fractionDigits": 0,
+              "__typename": "Money"
+            },
+            "__typename": "DiscountedProductPriceValue"
+          },
+          "value": {
+            "centAmount": 600,
+            "fractionDigits": 0,
+            "__typename": "HighPrecisionMoney"
+          },
+          "__typename": "ProductPrice"
+        },
+        "__typename": "ProductVariant"
+      },
+      "__typename": "ProductData"
+    },
+    "__typename": "ProductCatalogData"
+  },
+  "__typename": "Product"
+}

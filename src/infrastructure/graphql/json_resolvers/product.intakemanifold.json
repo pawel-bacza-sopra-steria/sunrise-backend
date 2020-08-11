@@ -1,0 +1,58 @@
+{
+  "id": "Intake Manifold",
+  "masterData": {
+    "current": {
+      "name": "Intake Manifold",
+      "slug": "intakemanifold",
+      "masterVariant": {
+        "sku": "intakemanifold",
+        "images": [
+          {
+            "url": "https://www.renderhub.com//3d-horse/intake-manifold/intake-manifold-01.jpg",
+            "__typename": "Image"
+          },
+          {
+            "url": "https://www.renderhub.com//3d-horse/intake-manifold/intake-manifold-03.jpg",
+            "__typename": "Image"
+          }
+        ],
+        "price": {
+          "discounted": null,
+          "value": {
+            "centAmount": 600,
+            "fractionDigits": 0,
+            "__typename": "HighPrecisionMoney"
+          },
+          "__typename": "ProductPrice"
+        },
+        "__typename": "ProductVariant"
+      },
+      "variant": {
+        "sku": "fun",
+        "images": [
+          {
+            "url": "https://www.renderhub.com//3d-horse/intake-manifold/intake-manifold-01.jpg",
+            "__typename": "Image"
+          },
+          {
+            "url": "https://www.renderhub.com//3d-horse/intake-manifold/intake-manifold-03.jpg",
+            "__typename": "Image"
+          }
+        ],
+        "price": {
+          "discounted": null,
+          "value": {
+            "centAmount": 600,
+            "fractionDigits": 0,
+            "__typename": "HighPrecisionMoney"
+          },
+          "__typename": "ProductPrice"
+        },
+        "__typename": "ProductVariant"
+      },
+      "__typename": "ProductData"
+    },
+    "__typename": "ProductCatalogData"
+  },
+  "__typename": "Product"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "Hello World",
+  "version": 6,
+  "lineItems": [],
+  "totalPrice": {
+    "centAmount": 60,
+    "currencyCode": "USD",
+    "fractionDigits": 0,
+    "__typename": "Money"
+  },
+  "shippingInfo": {
+    "shippingMethod": {
+      "id": "Hello World",
+      "name": "Hello World",
+      "description": "Hello World",
+      "__typename": "ShippingMethod"
+    },
+    "price": {
+      "centAmount": 47,
+      "currencyCode": "USD",
+      "fractionDigits": 0,
+      "__typename": "Money"
+    },
+    "__typename": "ShippingInfo"
+  },
+  "taxedPrice": {
+    "totalGross": {
+      "centAmount": 70,
+      "currencyCode": "USD",
+      "fractionDigits": 0,
+      "__typename": "Money"
+    },
+    "totalNet": {
+      "centAmount": 60,
+      "currencyCode": "USD",
+      "fractionDigits": 0,
+      "__typename": "Money"
+    },
+    "__typename": "TaxedPrice"
+  },
+  "discountCodes": [],
+  "shippingAddress": {
+    "firstName": "Hello World",
+    "lastName": "Hello World",
+    "streetName": "Hello World",
+    "additionalStreetInfo": "Hello World",
+    "postalCode": "Hello World",
+    "city": "Hello World",
+    "country": "US",
+    "contactInfo": {
+      "phone": "Hello World",
+      "email": "Hello World",
+      "__typename": "AddressContactInfo"
+    },
+    "__typename": "Address"
+  },
+  "billingAddress": {
+    "firstName": "Hello World",
+    "lastName": "Hello World",
+    "streetName": "Hello World",
+    "additionalStreetInfo": "Hello World",
+    "postalCode": "Hello World",
+    "city": "Hello World",
+    "country": "US",
+    "contactInfo": {
+      "phone": "Hello World",
+      "email": "Hello World",
+      "__typename": "AddressContactInfo"
+    },
+    "__typename": "Address"
+  },
+  "__typename": "Cart"
+}
