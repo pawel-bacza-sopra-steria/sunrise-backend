@@ -1,23 +1,19 @@
-import express from 'express';
+import { ApolloServer } from 'apollo-server';
+import { typeDefsMocked } from './graphql';
 
 export class Server {
-	private server: express.Express;
+	private server: ApolloServer;
 	private port: number;
 
 	constructor(port: number) {
 		this.port = port;
 
-		this.server = express();
+		this.server = new ApolloServer({ schema: typeDefsMocked });
 	}
 
-	create(): void {
-		this.server.use(express.json());
-		this.server.use(express.urlencoded({ extended: true }));
-	}
+	async start(): Promise<void> {
+		const serverInfo = await this.server.listen({ port: this.port });
 
-	start(): void {
-		this.server.listen(this.port, () => {
-			console.log(`Listening on http://localhost:${this.port}`);
-		});
+		console.log(`Listening on ${serverInfo.url}`);
 	}
 }

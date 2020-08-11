@@ -7,11 +7,7 @@ export class Application {
 		this.server = new Server(config.port);
 	}
 
-	create(): void {
-		this.server.create();
-	}
-
-	start(): void {
-		this.server.start();
+	async start(): Promise<void> {
+		await this.server.start();
 	}
 }
