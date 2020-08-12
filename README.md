@@ -41,4 +41,4 @@ npm run dev
 
 It will run a local server which refreshes when changes in files are detected
 
-Whole GraphQL Schema was exported with `get-graphql-schema` and saved in `\src\graphql\schema.graphql`
+Whole GraphQL Schema was exported with [get-graphql-schema](https://github.com/prisma-labs/get-graphql-schema) and saved in `\src\graphql\schema.graphql`
