@@ -3,7 +3,7 @@ import { gql, makeExecutableSchema } from 'apollo-server';
 import { addMocksToSchema } from '@graphql-tools/mock';
 import casual from 'casual';
 
-import { resolvers } from './';
+import { resolvers } from '.';
 
 const schema = readFileSync(__dirname.concat('/schema.graphql'), 'utf8');
 

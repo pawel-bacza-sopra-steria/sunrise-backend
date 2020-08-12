@@ -1,5 +1,5 @@
 import { ApolloServer } from 'apollo-server';
-import { typeDefsMocked } from './graphql';
+import { typeDefsMocked } from '../graphql';
 
 export class Server {
 	private server: ApolloServer;
