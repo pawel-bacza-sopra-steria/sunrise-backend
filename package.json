@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/pawel-bacza-sopra-steria/sunrise-backend#readme",
   "dependencies": {
-    "apollo-server": "^2.16.1",
+    "apollo-server": "^2.25.4",
     "casual": "^1.6.2",
     "dotenv": "^8.2.0",
     "graphql": "^15.3.0",
